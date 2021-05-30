@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - IMC</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="girl"></div>
+
+        <section>
+            <form action="">
+                <h1>Calcule o seu IMC</h1>
+
+                <div class="form-group">
+                    <label for="weight">
+                        Peso
+                    </label>
+                    <div class="inputs">
+                        <input type="range" id="weight" step="0.1" max="300" value="0">
+                        <input type="text" name="weightValue" id="weightValue" value="00.0">
+                    </div>
+                </div>
+                    
+                <div class="form-group">
+                    <label for="height">
+                        Altura
+                    </label>
+                    <div class="inputs">
+                        <input type="range" id="height" step="0.10" max="2.5" value="0">
+                        <input type="text" name="heightValue" id="heightValue" value="0.00">
+                    </div>
+                </div>
+
+                <div class="result">
+                    <h2>Seu índice IMC é:</h2>
+                    <span id="valueIndex">00.0</span>
+                    <p id="textIndex"></p>
+                </div>
+
+                <button class="btn" id="btnCalc" type="submit">Calcular</button>
+            </form>
+        </section>
+
+        <div class="plant"></div>
+
+    </div>
+
+    <footer>
+        <span>Estudo de HTML / CSS / JavaScript - <a href="https://github.com/juslenelobeu" target="_blank" rel="noopener noreferrer">Juslene Lobeu</a> - Ilustrações utilizada 'Fitness tracker' by <a href="https://undraw.co/" target="_blank" rel="noopener noreferrer">unDraw</a></span>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
