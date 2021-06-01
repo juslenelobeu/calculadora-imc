@@ -69,7 +69,7 @@ form .form-group .inputs {
     display: flex;
     justify-content: space-between;
 }
-form input[type=text] {
+form input[type=number] {
     background-color: var(--primary);
     border: none;
     border-radius: .2rem;
